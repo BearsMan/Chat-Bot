@@ -10,7 +10,7 @@ Pattern = [
     (r'what is your name', ['My name is Chatbot.', 'I am Chatbot.']),
     (r'bye|goodbye', ['Goodbye!', 'See you later!']),
     (r'What is the weather today?', ['The weather today is sunny and warm.',"The weather today is cold."]),  
-    (r'Tell me a joke', ["Knock knock, whose there? Dewayne, Dewayne who? Drain the tub, I'm  draining."]),
+    (r'Tell me a joke', ["Knock knock, whose there? Dewayne, Dewayne who? Drain the tub, I'm  drowning."]),
   (r'LOL!|HAHA!|XD!|LOL', ['LOL!','HAHA!','XD']),]
 def generate_joke():
     jokes = [
